@@ -3,7 +3,7 @@ Some bare-bones configuration files for my personal use.
 ## Required setup
 Clone this repository.
 ```
-git clone https://github.com/jgroh/dotfiles ~
+git clone https://github.com/jgroh/dotfiles
 ```
 
 ### vim

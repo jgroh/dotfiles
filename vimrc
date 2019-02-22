@@ -6,6 +6,7 @@ Plug 'rakr/vim-one'
 "Plug 'tpope/vim-sensible'
 call plug#end()
 
+
 " ===== OPTIONS =====
 
 " Set color scheme
@@ -32,6 +33,15 @@ inoremap jj <ESC>
 
 " Paste onto newline
 nnoremap ,p o<Esc>p
+
+
+" ===== SYNTAX =====
+" Syntax for snakemake
+" This requires the file found at
+" https://bitbucket.org/snakemake/snakemake/raw/master/misc/vim/syntax/snakemake.vim
+" to be found in ~/.vim/syntax
+au BufNewFile,BufRead Snakefile set syntax=snakemake
+au BufNewFile,BufRead *.smk set syntax=snakemake
 
 " ===== Configure Netrw =====
 

@@ -19,4 +19,10 @@ curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
     https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 ```
 
-From within vim, run `:PlugInstall`.
+From within vim, run `:PlugInstall`, to install plugins.
+
+To enable syntax highlighting for Snakemake, use 
+```
+wget https://bitbucket.org/snakemake/snakemake/raw/master/misc/vim/syntax/snakemake.vim -P ~/.vim/syntax
+```
+The `vimrc` file in this directory contains lines to recognize this file. 

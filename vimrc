@@ -3,7 +3,6 @@
 " Use the lines below to add plugins
 call plug#begin()
 Plug 'rakr/vim-one'
-"Plug 'tpope/vim-sensible'
 call plug#end()
 
 

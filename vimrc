@@ -2,6 +2,7 @@
 
 " Use the lines below to add plugins
 call plug#begin()
+Plug 'rakr/vim-one'
 call plug#end()
 
 
@@ -41,8 +42,8 @@ nnoremap ,p o<Esc>p
 " This requires the file found at
 " https://bitbucket.org/snakemake/snakemake/raw/master/misc/vim/syntax/snakemake.vim
 " to be found in ~/.vim/syntax
-"au BufNewFile,BufRead Snakefile set syntax=snakemake
-"au BufNewFile,BufRead *.smk set syntax=snakemake
+au BufNewFile,BufRead Snakefile set syntax=snakemake
+au BufNewFile,BufRead *.smk set syntax=snakemake
 
 " ===== Configure Netrw =====
 

@@ -3,6 +3,7 @@
 " Use the lines below to add plugins
 call plug#begin()
 Plug 'rakr/vim-one'
+Plug 'raivivek/vim-snakemake'
 call plug#end()
 
 
